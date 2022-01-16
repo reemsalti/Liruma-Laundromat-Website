@@ -1,5 +1,5 @@
 import './Main.css';
-import img  from '../laundromat2.jpg'
+import img  from './laundromat2.jpg'
 import React, {useState} from 'react';
 import Navbar from './Navbar';
 import Sidebar from './Sidebar';
@@ -8,7 +8,7 @@ import "./Navbar/index";
 import dispenser from "./dispenser.jpg";
 import { BsFillCursorFill } from "react-icons/bs";
 import { IoMdClock } from "react-icons/io";
-import newlogofooter from "/Users/reem/lirumalaundromat-website/src/newlogo.png";
+import newlogofooter from "./Navbar/newlogo.png";
 
 function Main() {
     const [isOpen, setIsOpen] = useState(false)

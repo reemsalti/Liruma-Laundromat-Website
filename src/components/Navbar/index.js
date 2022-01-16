@@ -1,7 +1,7 @@
 import React from 'react';
 import { FaBars } from 'react-icons/fa';
 import {Nav, NavbarContainer, MobileIcon, NavMenu, NavItem, Logo, StyledLink} from "./NavbarElements";
-import pic from "/Users/reem/lirumalaundromat-website/src/newlogo.png";
+import pic from "./newlogo.png";
 
 const Navbar = ({ toggle }) => {
     return (
