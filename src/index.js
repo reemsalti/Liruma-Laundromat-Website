@@ -3,6 +3,7 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+import './fonts/adventpro-regular.ttf';
 
 ReactDOM.render(
   <React.StrictMode>

@@ -1,0 +1,164 @@
+
+
+.container {
+    background-color: rgb(255, 255, 255);
+    height: auto;
+    width: 100%;
+    overflow: hidden;
+    justify-content: center;
+    top: 0;
+}
+
+.contents {
+    margin-top: 0;
+    text-align: center;
+    font-family: 'ProximaNova';
+    background: linear-gradient(360deg, #ffffff 60%, rgba(195, 209, 200, 0.651) 80%);
+     
+}
+
+.pic {
+    width: 100%;
+    image-rendering: optimizeQuality;
+    display: flex;
+    margin-top: -3rem;
+}
+
+h2 {
+    margin: auto;
+    padding-top: 3rem;
+    font-family: 'ProximaNova';
+    font-weight: bolder;
+    scroll-margin-top: 7em;
+    color: rgb(43, 43, 43);
+    
+}
+
+.About {
+    background: white;
+    height: auto;
+    margin: auto;
+    scroll-margin-top: 5em;
+}
+
+
+ .dispenser {
+    width: 70%;
+    align-content: center;
+    margin: auto;
+    padding-top: 2rem;
+
+}
+
+.Policy {
+    background-color: rgb(204, 236, 214);
+    width: 100%;
+    margin: auto;
+    scroll-margin-top: 5em;
+    margin-top: auto;
+}
+
+.Location {
+    background: rgb(255, 255, 255);
+    width: 100%;
+    height: auto;
+    margin: auto;
+    scroll-margin-top: 5em;
+
+}
+
+.Contact {
+    background: rgb(204, 236, 214);
+    height: auto;
+    margin: auto;
+    margin-top: 0rem;
+    scroll-margin-top: 5em;
+}
+
+p {
+    padding-bottom: 2rem;
+    margin: auto;
+    font-family: "ProximaNova";
+    font-size: 1.2rem;
+    padding-top: 0.5rem;
+    line-height: 20px;
+    max-width: 500px;
+    text-align: center !important;
+    justify-items: center !important;
+    padding: 2rem;
+    color: rgb(27, 27, 27);
+}
+
+iframe {
+    border: none;
+    width: 90%;
+    height: 350px;
+    max-width: 800px;
+    padding: 0;
+    margin: auto;
+    z-index: 3;
+    padding-bottom: 3rem;
+    margin-top: -2rem;
+}
+
+.ICON {
+    font-size: 3rem;
+    padding: 1rem;
+    margin-bottom: -1rem;
+    color: #686860
+}
+
+.number {
+    color: rgb(104, 187, 202);
+    font-weight: 900;
+}
+
+h3 {
+    color: rgb(43, 43, 43);
+}
+
+.footer-container {
+ background: rgb(238, 241, 236) !important;
+ display: flex;
+ height: 15rem;
+ display: block;
+ text-align:  center !important;
+ top: 0;
+
+}
+
+.bottomnav {
+   margin: 0;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    justify-content: center;
+    align-items: center;
+
+
+}
+
+.mininav {
+text-decoration: none;
+color: black;
+cursor: pointer;
+font-family: "ProximaNova";
+padding: 10px;
+font-weight: bold;
+line-height: 35px;
+
+
+}
+
+.copyright {
+    font-family: "ProximaNova";
+    position: relative;
+    padding: 0;
+    font-size: 1rem;
+    padding-bottom: 1rem;
+}
+
+.newlogofooter {
+    height: 3rem;
+    padding-bottom: 1rem;
+    image-rendering: optimizeQuality;
+}
