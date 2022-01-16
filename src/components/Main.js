@@ -39,7 +39,7 @@ function Main() {
                     <h2>LOCATION & HOURS</h2>
                     <IoMdClock className='ICON'/>
                     <p>Mon-Sun: 6:00AM - 10:00PM<br></br><br></br>2645 Liruma Rd #2, <br></br>Mississauga, ON L5K 1Y9<br></br><BsFillCursorFill className='ICON'/></p>
-                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2892.6311688725013!2d-79.67399024834397!3d43.530883479023245!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x882b43959d75d5b5%3A0x4db8976787cf9b84!2sLiruma%20Laundromat!5e0!3m2!1sen!2sca!4v1640558808855!5m2!1sen!2sca"></iframe>
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2892.6311688725013!2d-79.67399024834397!3d43.530883479023245!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x882b43959d75d5b5%3A0x4db8976787cf9b84!2sLiruma%20Laundromat!5e0!3m2!1sen!2sca!4v1640558808855!5m2!1sen!2sca" title='map'></iframe>
                 </div>
                 <div className='Contact' id='contact'>
                     <h2>CONTACT</h2>
