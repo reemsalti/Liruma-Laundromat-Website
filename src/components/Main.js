@@ -5,7 +5,7 @@ import Navbar from './Navbar';
 import Sidebar from './Sidebar';
 import { GiWashingMachine } from "react-icons/gi";
 import "./Navbar/index";
-import dispenser from "/Users/reem/lirumalaundromat-website/src/dispenser.jpg";
+import dispenser from "./dispenser.jpg";
 import { BsFillCursorFill } from "react-icons/bs";
 import { IoMdClock } from "react-icons/io";
 import newlogofooter from "/Users/reem/lirumalaundromat-website/src/newlogo.png";
