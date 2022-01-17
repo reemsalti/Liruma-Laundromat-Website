@@ -39,6 +39,8 @@ function Main() {
                         Softener
                         <br></br>
                         Dryer sheets
+                        <br></br><br></br>
+                        Perfect for your convenience! 
                     </p> 
                    <img className='dispenser' src={dispenser} alt="" />
                 </div>
