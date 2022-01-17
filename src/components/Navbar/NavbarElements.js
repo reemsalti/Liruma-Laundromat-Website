@@ -5,7 +5,7 @@ export const Nav = styled.nav`
 background: rgb(238, 241, 236);
 height: 80px;
 width: 100%;
-display: inline-block;
+display: block;
 align-items: center;
 font-size: 1rem;
 position: sticky;
