@@ -4,6 +4,7 @@
     background-color: rgb(255, 255, 255);
     height: auto;
     width: 100%;
+    margin: 0;
     overflow: hidden;
     justify-content: center;
     top: 0;
@@ -46,8 +47,7 @@ h2 {
     width: 70%;
     align-content: center;
     margin: auto;
-    padding-top: 2rem;
-
+    padding-bottom: 1rem;
 }
 
 .Policy {
@@ -162,3 +162,4 @@ line-height: 35px;
     padding-bottom: 1rem;
     image-rendering: optimizeQuality;
 }
+

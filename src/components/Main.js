@@ -9,6 +9,7 @@ import dispenser from "./dispenser.jpg";
 import { BsFillCursorFill } from "react-icons/bs";
 import { IoMdClock } from "react-icons/io";
 import newlogofooter from "./Navbar/newlogo.png";
+import { RiErrorWarningFill } from "react-icons/ri";
 
 function Main() {
     const [isOpen, setIsOpen] = useState(false)
@@ -28,12 +29,24 @@ function Main() {
 
                 <div className='About' id='about'>
                     <h2>ABOUT US</h2>
-                    <p>Liruma Laundromat is a self-serve coin laundromat where kindness, respect, and cleanliness is valued.<br></br><GiWashingMachine className='ICON'/><br></br><br></br>We offer products on-site for all your laundry needs, such as detergent, dryer-sheets, and softener, perfect for your convenience!<br></br><img className='dispenser' src={dispenser} alt="" /></p> 
+                    <p>Liruma Laundromat is a self-serve coin laundromat where kindness, respect, and cleanliness is valued.<br></br><GiWashingMachine className='ICON'/><br></br>
+                    <br></br>We offer products on-site for all your laundry needs!<br></br> 
+                    <br></br>
+                        Laundry bags
+                        <br></br>
+                        Detergent
+                        <br></br>
+                        Softener
+                        <br></br>
+                        Dryer sheets
+                    </p> 
+                   <img className='dispenser' src={dispenser} alt="" />
                 </div>
                 <div className='Policy' id='policy'>
                     <h2>POLICY</h2>
+                    <RiErrorWarningFill className="ICON" />
                     <p>Liruma Laundromat is equipped with round-the-clock surveillance to monitor customer safety and to maintain a respectful environment.<br>
-                    </br><br></br>Please keep in mind that the laundromat is not responsible for lost or stolen items, so please try not to forget your things!<br></br></p>
+                    </br><br></br>Please keep in mind that the laundromat is not responsible for lost or stolen items, so please try not to forget your items!<br></br></p>
                 </div>
                 <div className='Location' id='location'>
                     <h2>LOCATION & HOURS</h2>

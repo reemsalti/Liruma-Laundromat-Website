@@ -11,9 +11,9 @@ display: grid;
 align-items: center;
 top: 0;
 left: 0;
-transition: 0.3s ease-in-out;
+transition: 0.3s ease-in;
 visibility: ${({ isOpen }) => (isOpen ? 'visible' : 'hidden')};
-top: ${({ isOpen }) => (isOpen ? '0' : '-100%')};
+top: ${({ isOpen }) => (isOpen ? '-100' : '0')};
 top: 0;
 font-family: "ProximaNova";
 font-weight: bolder;
@@ -57,14 +57,14 @@ justify-content: center;
 font-size: 1.5rem;
 text-decoration: none;
 list-style: none;
-transition: 0.2s ease-in-out;
+transition: hidden;
 text-decoration: none;
 color: #fff;
 cursor: pointer;
 
+
 &:hover {
     color: #48544d;
-    transition: 0.2s ease-in-out;
     font-size: 1.8rem;
 }
 `;
