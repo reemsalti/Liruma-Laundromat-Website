@@ -24,10 +24,12 @@ function Main() {
         <Navbar toggle={toggle}/>
         <div className='container'>
                 
-            <div className='contents'>
+            <div className='contents'><div className='helpwanted'>
+                <h1>HELP WANTED</h1>
+                    <p className='note'>If interested please contact us at <a href='tel:6476377981'>(647)-637-7981</a></p>
+                </div>
                 <img className='pic' src={img} alt='' />
-
-                <div className='About' id='about'>
+                <div className='About' id='about'>=
                     <h2>ABOUT US</h2>
                     <p>Liruma Laundromat is a self-serve coin laundromat where kindness, respect, and cleanliness is valued.<br></br><GiWashingMachine className='ICON'/><br></br>
                     <br></br>We offer products on-site for all your laundry needs!<br></br> 
